@@ -1,0 +1,32 @@
+body {
+  font-family: 'Microsoft Yahei','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#questionWrap{
+  display: none;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+
+.poker {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #ddd !important;
+  text-decoration: none !important;
+}
+
+p a {
+  color: #343A40;
+}
+
+.fixed-bottom a:hover {
+  color: #343A40 !important;
+}
+
