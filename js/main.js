@@ -15,7 +15,7 @@ function eloquenceStart() {
 
   if (wordLibrary != "" && wordNum > 0) {
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "data.json");
+    xhr.open("GET", "./js/data.json");
     xhr.onload = function() {
       if (this.status == 200) {
         // show hidden parts
