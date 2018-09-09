@@ -1,3 +1,9 @@
+// register service worker
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").then(function() {
+    console.log("SW registered");
+  });
+}
 // set mutiple elements event listener
 let select_choice = document.getElementsByClassName("select-choice");
 
